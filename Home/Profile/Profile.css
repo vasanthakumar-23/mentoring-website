@@ -1,0 +1,145 @@
+.body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+
+.cover-img {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.cover-img > img {
+  height: 200px;
+  width: 100%;
+}
+
+.profile-section {
+  position: absolute;
+  left: 2rem;
+  top: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: fit-content;
+  width: 300px;
+  padding: 3rem;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 0.5rem;
+}
+
+.profile-section p {
+  text-decoration: none;
+  color: grey;
+  gap: 1rem;
+}
+
+.profile-section__img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+  top: -5.5rem;
+  border: 1px solid #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.profile-section__img > img {
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.profile-section > * {
+  display: block;
+}
+
+.profile-section__details > * {
+  margin: 1rem auto;
+  letter-spacing: 0.1rem;
+}
+
+.profile-section__details > *:hover {
+  letter-spacing: 0.2rem;
+}
+
+.task {
+  height: fit-content;
+  width: 300px;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 2rem 3rem;
+  position: absolute;
+  bottom: 3rem;
+  left: 2rem;
+}
+
+.task > * {
+  margin: 1rem auto;
+  letter-spacing: 0.1rem;
+}
+
+.task > *:hover {
+  letter-spacing: 0.2rem;
+}
+
+.profile-section__posts {
+  height: 570px;
+  width: 950px;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  position: absolute;
+  overflow: scroll;
+  top: 10rem;
+  right: 2rem;
+}
+
+.profile-section__posts h1 {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-style: normal;
+  position: absolute;
+  top: 1rem;
+  left: 3rem;
+}
+
+.post-section{
+    height: fit-content;
+    position: absolute;
+    bottom: 3rem;
+    right: 2rem;
+    left: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    overflow : scroll ;
+    width: 900px;
+    gap: 5rem;
+}
+
+#container{
+  
+  height:80%;
+  width: 60%;
+}
+
+.input{
+  height: 70%;
+  border-radius: 20px;
+}
